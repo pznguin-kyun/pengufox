@@ -9,5 +9,5 @@
 git clone https://github.com/p3nguin-kun/penguinFox
 ```
 
-- Copy all files and folders in penguinFox and paste to ~/.mozilla/firefox/*.default-release
+- Copy all files and folders in penguinFox and paste to ```~/.mozilla/firefox/*.default-release``` (Linux and macOS)
 - Restart Firefox
