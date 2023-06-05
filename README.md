@@ -3,6 +3,14 @@
 
 ![img](https://i.imgur.com/cxtvfLg.png)
 
+# ***Features***
+- Beautify Firefox with FirefoxCSS
+- Protect privacy and security with Arkenfox user.js
+- Automatically install extensions (uBlock Origin, Firefox Multi-Account Containers)
+- Turn off all telemetry, studies
+- Add calculator to address bar
+- Make Firefox suckless
+
 # ***Installation***
 
 ## 1. Install automatically (Linux only)
