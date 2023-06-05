@@ -1,5 +1,7 @@
 # ***penguinFox***
-***Better Firefox with better UI, better privacy and security***
+***Better Firefox with better UI, better privacy and security.***
+
+***penguinFox is Firefox config that makes Firefox more beautiful, more secure and better protect privacy by using FirefoxCSS and modded arkenfox users.js.***
 
 ![img](https://i.imgur.com/cxtvfLg.png)
 
