@@ -10,6 +10,8 @@
 - [Installation](#installation)
 - [How to uninstall](#how-to-uninstall)
 - [Q&A](#qa)
+- [Contributions](#contributions)
+- [Support](#support)
 
 # ***Features***
 - Beautify Firefox with FirefoxCSS
@@ -72,3 +74,16 @@ A: Because I use arkenfox user.js for my config and it doesn't save history but 
 Q: How to uninstall penguinFox without losing data?
 
 A: See [How to uninstall](#how-to-uninstall)
+
+# ***Contributions***
+
+1. Fork this project.
+2. Edit files, add extensions, ...
+3. Make a pull request.
+
+# ***Support***
+
+If you like penguinFox and would like to support & appreciate it via donation then I'll gladly accept it.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C6LA1W6)
+[![paypal](https://camo.githubusercontent.com/fd64c51a4afd8b4e2b84479f9a2b654084602bd15f25ab31cbd7a679d73d129a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f50617950616c2d3030343537433f7374796c653d666f722d7468652d6261646765266c6f676f3d70617970616c266c6f676f436f6c6f723d7768697465)](https://paypal.me/p3nguinkun)
