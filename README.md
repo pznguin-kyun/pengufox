@@ -5,6 +5,12 @@
 
 ![img](https://i.imgur.com/cxtvfLg.png)
 
+# ***Menu***
+- [Features](#features)
+- [Installation](#installation)
+- [How to uninstall](#how-to-uninstall)
+- 
+
 # ***Features***
 - Beautify Firefox with FirefoxCSS
 - Protect privacy and security with Arkenfox user.js
