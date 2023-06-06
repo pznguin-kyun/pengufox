@@ -22,7 +22,7 @@
 - [Installation](#installation)
 - [How to uninstall](#how-to-uninstall)
 - [How to update](#how-to-update)
-- [How to override settings on user.js](#how-to-override-settings-on-user.js)
+- [How to override settings on user.js](#how-to-override-settings-on-userjs)
 - [Q&A](#qa)
 - [Contributions](#contributions)
 - [Support](#support)
