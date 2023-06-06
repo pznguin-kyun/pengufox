@@ -75,6 +75,10 @@ Q: How to uninstall penguinFox without losing data?
 
 A: See [How to uninstall](#how-to-uninstall)
 
+Q: Why Close, Maximize, Minimize buttons so small on my Windows system?
+
+A: Do you remember to replace userChrome.css with userChrome-windows.css?
+
 # ***Contributions***
 
 1. Fork this project.
