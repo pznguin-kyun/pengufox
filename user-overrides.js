@@ -20,3 +20,6 @@ user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 
 // Intergrated calculator at address bar
 user_pref("browser.urlbar.suggest.calculator", true);
+
+// Better search on address bar
+user_prefs("keyword.enabled", true);
