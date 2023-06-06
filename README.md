@@ -115,3 +115,4 @@ If you like penguinFox and would like to support & appreciate it via donation th
 # ***Credits***
 - [arkenfox](https://github.com/arkenfox) - For user.js
 - [r/FirefoxCSS](https://www.reddit.com/r/FirefoxCSS/) - For CSS file
+- [uBlock Origin](https://ublockorigin.com/) - Content blocker
