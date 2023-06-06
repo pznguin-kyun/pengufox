@@ -22,6 +22,7 @@
 - [Installation](#installation)
 - [How to uninstall](#how-to-uninstall)
 - [How to update](#how-to-update)
+- [How to override settings on user.js](#how-to-override-settings-on-user.js)
 - [Q&A](#qa)
 - [Contributions](#contributions)
 - [Support](#support)
@@ -80,8 +81,31 @@ git clone https://github.com/p3nguin-kun/penguinFox
 - Go to your profile folder
 - Run ```updater.sh``` (Linux, macOS) or ```updater.bat``` (Windows)
 
-# ***Q&A***
+# ***How to override settings on user.js***
+You shouldn't edit ```user.js``` file directly, just use ```user-overrides.js```
 
+- user.js (live arkenfox)
+```
+user_pref("pref.name.example", "purple")
+```
+
+- user-overrides.js (you create this file and need to override settings here, don't override settings on user.js)
+```
+// my overrides
+user_pref("pref.name.example", "green") // I like green
+```
+
+The updater gets the current live arkenfox and appends your overrides, and then it compares that to the current user.js in your profile. If it's different, it replaces it. In this example, Firefox will apply the value of green when Firefox is started.
+
+- user.js (yours after updater runs)
+```
+user_pref("pref.name.example", "purple")
+
+// my overrides
+user_pref("pref.name.example", "green") // I like green
+```
+
+# ***Q&A***
 Q: Why my Firefox doesn't save history and how to fix it?
 
 A: Because I use arkenfox user.js for my config and it doesn't save history but you can fix it by edit user.js file
