@@ -80,9 +80,9 @@ Q: Why my Firefox doesn't save history and how to fix it?
 
 A: Because I use arkenfox user.js for my config and it doesn't save history but you can fix it by edit user.js file
   - Go to your profile folder
-  - Open ```user.js``` with any text editor
-  - Find this line: ```user_pref("privacy.clearOnShutdown.history", true);```
-  - Change ```true``` to ```false```
+  - Open ```user-overrides.js``` with any text editor
+  - Add this line: ```user_pref("privacy.clearOnShutdown.history", false);```
+  - Run ```updater.sh``` (Linux, macOS) or ```updater.bat``` (Windows) to override settings
   - You can do it with Cache, Downloads or Form data
 
 Q: How to uninstall penguinFox without losing data?
