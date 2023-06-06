@@ -7,8 +7,8 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/p3nguin-kun/penguinFox?color=689d6a&style=for-the-badge)
 
 - 👩‍💻 ***Author***: [@p3nguin-kun](https://github.com/p3nguin-kun)
-- 🌐 ***Website***: [https://p3nguin-kun.github.io/penguinRice](https://p3nguin-kun.github.io/penguinRice)
-- 🐈‍⬛ ***GitHub***: [https://github.com/p3nguin-kun/penguinRice](https://github.com/p3nguin-kun/penguinRice)
+- 🌐 ***Website***: [https://p3nguin-kun.github.io/penguinRice](https://p3nguin-kun.github.io/penguinFox)
+- 🐈‍⬛ ***GitHub***: [https://github.com/p3nguin-kun/penguinRice](https://github.com/p3nguin-kun/penguinFox)
 - 🗨️ ***Discord server***: [penguin clan](https://discord.gg/https://discord.gg/yzn442FGuZ)
 
 ***Firefox with better UI, better privacy and security.***
