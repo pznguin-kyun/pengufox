@@ -123,6 +123,14 @@ Q: Why Close, Maximize, Minimize buttons so small on my Windows system?
 
 A: Do you remember to replace userChrome.css with userChrome-windows.css?
 
+Q: How to restore sessions on startup?
+
+A: Follow this steps:
+  - Go to your profile folder
+  - Open ```user-overrides.js``` with any text editor
+  - Add this line: ```user_pref("browser.startup.page", 3);```
+  - Run ```updater.sh``` (Linux, macOS) or ```updater.bat``` (Windows) to override settings
+
 # ***Contributions***
 
 1. Fork this project.
