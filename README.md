@@ -46,3 +46,14 @@ git clone https://github.com/p3nguin-kun/penguinFox
 
 # ***How to uninstall***
 - Just go to your profile folder and delete ```user.js```, ```prefs.js``` and ```chrome``` folder
+
+# ***Q&A***
+
+Q: Why my Firefox doesn't save history and how to fix it?
+
+A: Because I use arkenfox user.js for my config and it doesn't save history but you can fix it by edit user.js file
+  - Go to your profile folder
+  - Open ```user.js``` with any text editor
+  - Find this line: ```user_pref("privacy.clearOnShutdown.history", true);```
+  - Change ```true``` to ```false```
+  - You can do it with Cache, Downloads or Form data
