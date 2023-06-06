@@ -13,7 +13,7 @@
 
 ***Firefox with better UI, better privacy and security.***
 
-***penguinFox is Firefox config that makes Firefox more beautiful, more secure and better protect privacy by using FirefoxCSS and modded arkenfox users.js.***
+***penguinFox is Firefox config that makes Firefox more beautiful, more secure and better protect privacy by using FirefoxCSS and  arkenfox users.js.***
 
 ![img](https://i.imgur.com/cxtvfLg.png)
 
@@ -67,10 +67,12 @@ git clone https://github.com/p3nguin-kun/penguinFox
   
   > If you use Windows, you need to delete userChrome.css and rename userChrome-windows.css to userChrome.css
 
+- Run ```updater.sh``` (Linux and macOS), ```updater.bat``` (Windows) to update arkenfox user.js and change some settings
+
 - Restart Firefox and enjoy
 
 # ***How to uninstall***
-- Just go to your profile folder and delete ```user.js```, ```prefs.js``` and ```chrome``` folder
+- Just go to your profile folder and delete ```user.js``` and ```chrome``` folder
 
 # ***Q&A***
 
