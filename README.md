@@ -9,7 +9,7 @@
 - [Features](#features)
 - [Installation](#installation)
 - [How to uninstall](#how-to-uninstall)
-- 
+- [Q&A](#qa)
 
 # ***Features***
 - Beautify Firefox with FirefoxCSS
