@@ -57,3 +57,7 @@ A: Because I use arkenfox user.js for my config and it doesn't save history but 
   - Find this line: ```user_pref("privacy.clearOnShutdown.history", true);```
   - Change ```true``` to ```false```
   - You can do it with Cache, Downloads or Form data
+
+Q: How to uninstall penguinFox without losing data?
+
+A: See [How to uninstall](#how-to-uninstall)
