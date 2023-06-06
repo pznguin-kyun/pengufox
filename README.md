@@ -27,6 +27,11 @@
 git clone https://github.com/p3nguin-kun/penguinFox
 ```
 
+- Go to penguinFox directory
+```
+cd penguinFox
+```
+
 - Run the installer script
 ```
 sh penguinfox-installer.sh
