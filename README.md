@@ -43,3 +43,6 @@ git clone https://github.com/p3nguin-kun/penguinFox
   > If you use Windows, you need to delete userChrome.css and rename userChrome-windows.css to userChrome.css
 
 - Restart Firefox and enjoy
+
+# ***How to uninstall***
+- Just go to your profile folder and delete ```user.js```, ```prefs.js``` and ```chrome``` folder
