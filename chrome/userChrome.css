@@ -4,7 +4,7 @@
 :root{--tabpanel-background-color: var(--toolbar-field-background-color) !important}
 
 /*  Tab border radius  */
-:root{--tab-border-radius: 3px!important}
+:root{--tab-border-radius: 1px!important}
 
 :root {--navbarWidth: calc(300pt + 180px); --animationSpeed: .15s}
 @media screen and (min-width:1325px){:root #nav-bar{margin-top: -44px!important; height: 44px!important; transition: var(--animationSpeed)!important} #TabsToolbar,#nav-bar{transition: var(--animationSpeed)!important} #TabsToolbar{margin-left: var(--navbarWidth)!important} #nav-bar{ margin-right: calc(100vw - var(--navbarWidth))!important; vertical-align: center!important}}
@@ -109,8 +109,8 @@
 #nav-bar{direction: rtl;} #urlbar-container, #customizationui-widget-panel{direction: ltr !important;}
 
 /*  Rounded corner in pages  */
-#navigator-toolbox{padding-bottom: 10px;}
-.browserStack>browser{margin: -10px 0 0 0!important; border-radius: 10px 10px 0 0}
+#navigator-toolbox{padding-bottom: 0px;}
+.browserStack>browser{margin: 0px 0 0 0!important; border-radius: 0px 0px 0 0}
 .browserStack:nth-last-child(3n)>browser, .browserStack:nth-last-child(4n)>browser{margin: -10px 0 !important; border-radius: 10px !important;}
 findbar{border-radius: 10px 10px 0 0 !important; margin-top: -10px; z-index: 2; padding-bottom: -10px;}
 
