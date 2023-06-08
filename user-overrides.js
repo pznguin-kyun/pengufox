@@ -23,3 +23,6 @@ user_pref("browser.urlbar.suggest.calculator", true);
 
 // Better search on address bar
 user_pref("keyword.enabled", true);
+
+// Enable WebGL
+user_pref("webgl.disabled", false);
