@@ -22,6 +22,4 @@ user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("browser.urlbar.suggest.calculator", true);
 
 // Better search on address bar
-user_prefs("keyword.enabled", true);
-user_prefs("browser.search.suggest.enabled", true);
-user_pref("browser.urlbar.suggest.searches", true);
+user_pref("keyword.enabled", true);
