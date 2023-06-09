@@ -137,7 +137,7 @@ Q: Why is my screen so small and it has thick border?
 A: Because arkenfox has spoof resolution into 1300x600 which is not a common screen resolution to protect your privacy but you can disable it.
   - Go to your profile folder
   - Open ```user-overrides.js``` with any text editor
-  - Add this line: ```user_pref("privacy.resistFingerprinting.letterboxing", true);```
+  - Add this line: ```user_pref("privacy.resistFingerprinting.letterboxing", false);```
   - Run ```updater.sh``` (Linux, macOS) or ```updater.bat``` (Windows) to override settings
 
 # ***Contributions***
