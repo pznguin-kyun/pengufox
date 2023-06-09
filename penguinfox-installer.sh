@@ -80,5 +80,10 @@ for archivos in ~/penguinFox/*; do
 	fi
 done
 
+# Run updater.sh
+logo "Update arkenfox user.js"
+cd ~/.mozilla/firefox/*.default-release
+sh updater.sh
+
 logo "Done!"
 printf "Completed penguinFox installation, now open Firefox and enjoy!"
