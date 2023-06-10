@@ -69,7 +69,7 @@ done
 logo "Installing penguinFox..."
 printf "Copying files to respective directories..\n"
 
-for archivos in ~/penguinFox/*; do
+for archivos in $PWD/*; do
 	cp -R "${archivos}" ~/.mozilla/firefox/*.default-release/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
