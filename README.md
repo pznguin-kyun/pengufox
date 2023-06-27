@@ -1,6 +1,6 @@
 # ***penguinFox***
 
-- 👩‍💻 ***Author***: [p3nguin-kun](https://codeberg.org/p3nguin-kun)
+- 👩‍💻 ***Author***: [p3nguin-kun](https://github.com/p3nguin-kun)
 - 🗨️ ***Discord server***: [penguin clan](https://discord.gg/https://discord.gg/yzn442FGuZ)
 
 ***Firefox with better UI, better privacy and security.***
@@ -20,7 +20,6 @@
 
 # ***Features***
 - Beautify Firefox with FirefoxCSS
-- Add vertical tab
 - Automatically install extensions (uBlock Origin, Firefox Multi-Account Containers)
 - Turn off all telemetry, studies
 - Add calculator to address bar
@@ -31,7 +30,7 @@
 ## 1. Install automatically (Linux only)
 - Clone this repository
 ```
-git clone https://codeberg.org/p3nguin-kun/penguinFox
+git clone https://github.com/p3nguin-kun/penguinFox
 ```
 
 - Go to penguinFox directory
@@ -49,9 +48,9 @@ sh penguinfox-installer.sh
 - (Optional) If you want Firefox to be smaller, go to ```Customize toolbar > Density > Compact```
 
 ## 2. Install manually
-- Clone this repository or download the [zip file](https://codeberg.org/p3nguin-kun/penguinFox/archive/main.zip)
+- Clone this repository or download the [zip file](https://github.com/p3nguin-kun/penguinFox/archive/main.zip)
 ```
-git clone https://codeberg.org/p3nguin-kun/penguinFox
+git clone https://github.com/p3nguin-kun/penguinFox
 ```
 
 - Extract file (if you download the zip file)
