@@ -2,7 +2,7 @@
 
 # penguinFox
 # Author: Khanh Hien Hoang (p3nguin-kun)
-# Codeberg: p3nguin-kun
+# GitHub: p3nguin-kun
 
 CRE=$(tput setaf 1)
 CYE=$(tput setaf 3)
