@@ -2,8 +2,7 @@
 
 # penguinFox
 # Author: Khanh Hien Hoang (p3nguin-kun)
-# GitHub: p3nguin-kun
-# Website: https://p3nguin-kun.github.io
+# Codeberg: p3nguin-kun
 
 CRE=$(tput setaf 1)
 CYE=$(tput setaf 3)
@@ -19,7 +18,7 @@ logo() {
 
 	local text="${1:?}"
 	echo -en "                                 
-  penguinFox Installer\n\n"
+  	penguinFox Installer\n\n"
 	printf ' %s [%s%s %s%s %s]%s\n\n' "${CRE}" "${CNC}" "${CYE}" "${text}"
 }
 
@@ -80,10 +79,9 @@ for archivos in ~/penguinFox/*; do
 	fi
 done
 
-# Run updater.sh
-logo "Update arkenfox user.js"
-cd ~/.mozilla/firefox/*.default-release
-sh updater.sh
+# Removing unused files
+logo "Removing unused files..."
+rm -rf ~/.mozilla/firefox/*.default-release/.git ~/.mozilla/firefox/*.default-release/.github ~/.mozilla/firefox/*.default-release/penguinfox-installer.sh ~/.mozilla/firefox/*.default-release/README.md
 
 logo "Done!"
 printf "Completed penguinFox installation, now open Firefox and enjoy!"

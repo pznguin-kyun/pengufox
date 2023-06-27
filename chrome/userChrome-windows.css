@@ -39,11 +39,6 @@
 /*  Removes urlbar border/background  */
 #urlbar-background{border: none !important; outline: none !important; transition: .15s !important;}
 
-/*  Cool animation on tab/bookmark icons  */
-.tabbrowser-tab:not([pinned]):not([selected]) .tab-icon-image ,.bookmark-item .toolbarbutton-icon{opacity: 0!important; transition: var(--animationSpeed)!important; width: 0!important; padding-left: 16px!important}
-.tabbrowser-tab:not([pinned]):hover .tab-icon-image,.bookmark-item:hover .toolbarbutton-icon{opacity: 100!important; transition: var(--animationSpeed)!important; display: inline-block!important; width: 16px!important; padding-left: 0!important}
-.tabbrowser-tab:not([hover]) .tab-icon-image,.bookmark-item:not([hover]) .toolbarbutton-icon{padding-left: 0!important}
-
 /*  Removes space after pinned tabs  */
 #tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs])>#tabbrowser-arrowscrollbox>.tabbrowser-tab[first-visible-unpinned-tab] {margin-inline-start: 0!important}
 
