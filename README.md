@@ -5,8 +5,6 @@
 
 ## ***Note***: If you use Librewolf, use this: [penguinFox-Librewolf](https://github.com/p3nguin-kun/penguinFox-Librewolf)
 
-***Firefox with better UI, better privacy and security.***
-
 ***penguinFox is Firefox config that makes Firefox more beautiful, more secure and better protect privacy by using FirefoxCSS and disabling all telemetry.***
 
 ![img](https://i.imgur.com/aByMkWB.png)
