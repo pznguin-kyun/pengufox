@@ -3,6 +3,8 @@
 - 👩‍💻 ***Author***: [p3nguin-kun](https://github.com/p3nguin-kun)
 - 🗨️ ***Discord server***: [penguin clan](https://discord.gg/https://discord.gg/yzn442FGuZ)
 
+### ***Note***: If you use Librewolf, use this: [penguinFox-Librewolf](https://github.com/p3nguin-kun/penguinFox-Librewolf)
+
 ***Firefox with better UI, better privacy and security.***
 
 ***penguinFox is Firefox config that makes Firefox more beautiful, more secure and better protect privacy by using FirefoxCSS and disabling all telemetry.***
