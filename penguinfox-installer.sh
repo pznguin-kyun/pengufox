@@ -55,7 +55,7 @@ for folder in chrome extensions; do
 	fi
 done
 
-for file in user.js prefs.js; do
+for file in user.js; do
 	if [ -e "$HOME"/.mozilla/firefox/*.default-release/$file ]; then
 		mv "$HOME"/.mozilla/firefox/*.default-release/$file "$backup_folder"/${file}_$date
 		echo "$file file backed up successfully at $backup_folder/${file}_$date"
