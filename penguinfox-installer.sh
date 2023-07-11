@@ -40,7 +40,6 @@ clear
 # Backup config files
 logo "Backing-up your config files"
 printf "Backup files will be stored in %s%s%s/.penguinFox-Backup%s \n\n" "${BLD}" "${CRE}" "$HOME" "${CNC}"
-sleep 10
 
 if [ ! -d "$backup_folder" ]; then
 	mkdir -p "$backup_folder"
