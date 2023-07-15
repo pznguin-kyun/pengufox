@@ -13,6 +13,7 @@
 - [Features](#features)
 - [Installation](#installation)
 - [How to uninstall](#how-to-uninstall)
+- [nightTab config](#nighttab-config)
 - [Q&A](#qa)
 - [Contributions](#contributions)
 - [Support](#support)
@@ -68,6 +69,14 @@ git clone https://github.com/p3nguin-kun/penguinFox
 
 # ***How to uninstall***
 - Just go to your profile folder and delete ```user.js``` and ```chrome``` folder
+
+# ***nightTab config***
+![Screenshot_2023-07-15_20-47-24](https://github.com/p3nguin-kun/penguinFox/assets/123321507/f52fe4ea-ac6c-49c4-a75c-cef1c9e8b27c)
+### ***Installation***
+- Install [nightTab](https://github.com/zombieFox/nightTab)
+- Download my nightTab config [here](https://github.com/zombieFox/nightTab)
+- Choose `Data > Restore > Import from file`
+- Choose my nightTab config and apply it
 
 # ***Contributions***
 
