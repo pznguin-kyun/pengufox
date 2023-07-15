@@ -75,7 +75,7 @@ git clone https://github.com/p3nguin-kun/penguinFox
 ### ***Installation***
 - Install [nightTab](https://github.com/zombieFox/nightTab)
 - Download my nightTab config [here](https://github.com/zombieFox/nightTab)
-- Choose `Data > Restore > Import from file`
+- Choose `Settings > Data > Restore > Import from file`
 - Choose my nightTab config and apply it
 
 # ***Contributions***
@@ -83,7 +83,6 @@ git clone https://github.com/p3nguin-kun/penguinFox
 1. Fork this project.
 2. Edit files, add extensions, ...
 3. Make a pull request.
-
 
 # ***Credits***
 - [r/FirefoxCSS](https://www.reddit.com/r/FirefoxCSS/)
