@@ -74,7 +74,7 @@ git clone https://github.com/p3nguin-kun/penguinFox
 ![Screenshot_2023-07-15_20-47-24](https://github.com/p3nguin-kun/penguinFox/assets/123321507/f52fe4ea-ac6c-49c4-a75c-cef1c9e8b27c)
 ### ***Installation***
 - Install [nightTab](https://github.com/zombieFox/nightTab)
-- Download my nightTab config [here](https://github.com/zombieFox/nightTab)
+- Download my nightTab config [here](https://github.com/p3nguin-kun/penguinFox/blob/main/p3nguin-kun's%20nighttab%20config.json)
 - Choose `Settings > Data > Restore > Import from file`
 - Choose my nightTab config and apply it
 
