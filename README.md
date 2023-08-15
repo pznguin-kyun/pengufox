@@ -41,7 +41,7 @@ cd penguinFox
 
 - Run the installer script
 ```
-sh penguinfox-installer.sh
+./penguinfox-installer.sh
 ```
 
 - Restart Firefox and enjoy
