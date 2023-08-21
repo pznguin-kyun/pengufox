@@ -1,7 +1,7 @@
 # **penguinFox**
 
-- 👩‍💻 ***Author***: [p3nguin-kun](https://github.com/p3nguin-kun)
-- 🗨️ ***Discord server***: [penguin clan](https://discord.gg/https://discord.gg/yzn442FGuZ)
+- 👩‍💻 **Author**: [p3nguin-kun](https://github.com/p3nguin-kun)
+- 🗨️ **Discord server**: [penguin clan](https://discord.gg/https://discord.gg/yzn442FGuZ)
 
 ## **Note**: If you use Librewolf, use this: [penguinFox-Librewolf](https://github.com/p3nguin-kun/penguinFox-Librewolf)
 
@@ -78,12 +78,12 @@ git clone https://github.com/p3nguin-kun/penguinFox
 - Choose `Settings > Data > Restore > Import from file`
 - Choose my nightTab config and apply it
 
-# ***Contributions***
+# **Contributions**
 
 1. Fork this project.
 2. Edit files, add extensions, ...
 3. Make a pull request.
 
-# ***Credits***
+# **Credits**
 - [r/FirefoxCSS](https://www.reddit.com/r/FirefoxCSS/)
 - [uBlock Origin](https://ublockorigin.com/)
