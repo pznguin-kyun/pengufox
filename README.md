@@ -1,15 +1,15 @@
-# ***penguinFox***
+# **penguinFox**
 
 - 👩‍💻 ***Author***: [p3nguin-kun](https://github.com/p3nguin-kun)
 - 🗨️ ***Discord server***: [penguin clan](https://discord.gg/https://discord.gg/yzn442FGuZ)
 
-## ***Note***: If you use Librewolf, use this: [penguinFox-Librewolf](https://github.com/p3nguin-kun/penguinFox-Librewolf)
+## **Note**: If you use Librewolf, use this: [penguinFox-Librewolf](https://github.com/p3nguin-kun/penguinFox-Librewolf)
 
-***penguinFox is Firefox config that makes Firefox more beautiful, more secure and better protect privacy by using FirefoxCSS and disabling all telemetry.***
+**penguinFox is a Firefox config that makes Firefox more beautiful, more secure and better protect privacy by using FirefoxCSS and disabling all telemetry.**
 
 ![img](https://i.imgur.com/aByMkWB.png)
 
-# ***Menu***
+# **Menu**
 - [Features](#features)
 - [Installation](#installation)
 - [How to uninstall](#how-to-uninstall)
@@ -19,14 +19,14 @@
 - [Support](#support)
 - [Credits](#credits)
 
-# ***Features***
+# **Features**
 - Beautify Firefox with FirefoxCSS
 - Automatically install extensions (uBlock Origin, Firefox Multi-Account Containers)
 - Turn off all telemetry, studies
 - Add calculator to address bar
 - Make Firefox suckless
 
-# ***Installation***
+# **Installation**
 
 ## 1. Install automatically (Linux only)
 - Clone this repository
@@ -67,12 +67,12 @@ git clone https://github.com/p3nguin-kun/penguinFox
 
 - (Optional) If you want Firefox to be smaller, go to ```Customize toolbar > Density > Compact```
 
-# ***How to uninstall***
+# **How to uninstall**
 - Just go to your profile folder and delete ```user.js``` and ```chrome``` folder
 
-# ***nightTab config***
+# **nightTab config**
 ![Screenshot_2023-07-15_20-47-24](https://github.com/p3nguin-kun/penguinFox/assets/123321507/f52fe4ea-ac6c-49c4-a75c-cef1c9e8b27c)
-### ***Installation***
+### **Installation**
 - Install [nightTab](https://github.com/zombieFox/nightTab)
 - Download my nightTab config [here](https://github.com/p3nguin-kun/penguinFox/blob/main/p3nguin-kun's%20nighttab%20config.json)
 - Choose `Settings > Data > Restore > Import from file`
