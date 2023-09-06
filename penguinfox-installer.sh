@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 # penguinFox
-# Author: Khanh Hien Hoang (p3nguin-kun)
 # GitHub: p3nguin-kun
 
 CRE=$(tput setaf 1)
