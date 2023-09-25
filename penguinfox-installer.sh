@@ -76,5 +76,8 @@ for archivos in ./*; do
 	fi
 done
 
+logo "Removing unused files..."
+rm -rf ~/.mozilla/firefox/*.default-release/.git ~/.mozilla/firefox/*.default-release/.github ~/.mozilla/firefox/*.default-release/penguinfox-installer.sh ~/.mozilla/firefox/*.default-release/README.md
+
 logo "Done!"
 printf "Completed penguinFox installation, now open Firefox and enjoy!\n"
