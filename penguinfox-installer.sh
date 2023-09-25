@@ -66,29 +66,15 @@ done
 logo "Installing penguinFox..."
 printf "Copying files to respective directories..\n"
 
-for archivos in /chrome/*; do
-	cp -R "${archivos}" ~/.mozilla/firefox/*.default-release/chrome/
+for archivos in ./*; do
+	cp -R "${archivos}" ~/.mozilla/firefox/*.default-release/
 	if [ $? -eq 0 ]; then
-		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
-		sleep 1
+		printf "%s%s%s copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
 	else
 		printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
 		sleep 1
 	fi
 done
-
-for archivos in /extensions/*; do
-	cp -R "${archivos}" ~/.mozilla/firefox/*.default-release/extensions/
-	if [ $? -eq 0 ]; then
-		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
-		sleep 1
-	else
-		printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
-		sleep 1
-	fi
-done
-
-cp /user.js ~/.mozilla/firefox/*.default-release/
 
 logo "Done!"
-printf "Completed penguinFox installation, now open Firefox and enjoy!"
+printf "Completed penguinFox installation, now open Firefox and enjoy!\n"
