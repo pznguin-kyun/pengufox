@@ -44,7 +44,7 @@ if [ ! -d "$backup_folder" ]; then
 	mkdir -p "$backup_folder"
 fi
 
-for folder in chrome extensions; do
+for folder in chrome; do
 	if [ -d "$HOME"/.mozilla/firefox/*.default-release/$folder ]; then
 		mv "$HOME"/.mozilla/firefox/*.default-release/$folder "$backup_folder"/${folder}_$date
 		echo "$folder folder backed up successfully at $backup_folder/${folder}_$date"
@@ -66,8 +66,8 @@ done
 logo "Installing penguinFox..."
 printf "Copying files to respective directories..\n"
 
-for archivos in ~/penguinFox/*; do
-	cp -R "${archivos}" ~/.mozilla/firefox/*.default-release/
+for archivos in /chrome/*; do
+	cp -R "${archivos}" ~/.mozilla/firefox/*.default-release/chrome/
 	if [ $? -eq 0 ]; then
 		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
 		sleep 1
@@ -77,9 +77,18 @@ for archivos in ~/penguinFox/*; do
 	fi
 done
 
-# Removing unused files
-logo "Removing unused files..."
-rm -rf ~/.mozilla/firefox/*.default-release/.git ~/.mozilla/firefox/*.default-release/.github ~/.mozilla/firefox/*.default-release/penguinfox-installer.sh ~/.mozilla/firefox/*.default-release/README.md
+for archivos in /extensions/*; do
+	cp -R "${archivos}" ~/.mozilla/firefox/*.default-release/extensions/
+	if [ $? -eq 0 ]; then
+		printf "%s%s%s folder copied succesfully!%s\n" "${BLD}" "${CGR}" "${archivos}" "${CNC}"
+		sleep 1
+	else
+		printf "%s%s%s failed to been copied, you must copy it manually%s\n" "${BLD}" "${CRE}" "${archivos}" "${CNC}"
+		sleep 1
+	fi
+done
+
+cp /user.js ~/.mozilla/firefox/*.default-release/
 
 logo "Done!"
 printf "Completed penguinFox installation, now open Firefox and enjoy!"
