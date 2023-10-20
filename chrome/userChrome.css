@@ -3,6 +3,8 @@
 * by p3nguin-kun
 */
 
+/* config */
+
 * {
   /*--tab-corner-rounding: 5px;*/
   --animation-speed: 0.4s;
@@ -16,7 +18,6 @@
   --tabs-border-color: transparent;
 }
 
-/* config */
 :root {
     --window: -moz-Dialog !important;
     --secondary: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important;
@@ -25,6 +26,7 @@
     --uc-page-action-margin: 7px;
 }
 
+/* animation and effect */
 #nav-bar:not([customizing]) {
   visibility: visible;
   margin-top: -40px;
@@ -101,7 +103,7 @@ tab:not(:active) .tab-background {
   background-color: var(--window) !important;
 }
 
-/* x-button */
+/* X-button */
 :root {
     --show-tab-close-button: none;
     --show-tab-close-button-hover: -moz-inline-block;
@@ -119,7 +121,6 @@ tab:not(:active) .tab-background {
 }
 
 /* tabbar */
-
 
 /* Hide the secondary Tab Label
  * e.g. playing indicator (the text, not the icon) */
