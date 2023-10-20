@@ -1,13 +1,10 @@
-# **penguinFox**
-
-- 👩‍💻 **Author**: [p3nguin-kun](https://github.com/p3nguin-kun)
-- 🗨️ **Discord server**: [penguin clan](https://discord.gg/https://discord.gg/yzn442FGuZ)
+<h1 align="center">penguinFox</h1>
 
 ## **Note**: If you use Librewolf, use this: [penguinFox-Librewolf](https://github.com/p3nguin-kun/penguinFox-Librewolf)
 
 **penguinFox is a Firefox config that makes Firefox more beautiful, more secure and better protect privacy by using FirefoxCSS and disabling all telemetry.**
 
-![img](https://github.com/p3nguin-kun/penguinFox/assets/123321507/5313cb10-265e-4d91-8671-4723996fd4ee)
+https://github.com/p3nguin-kun/penguinFox/assets/123321507/1c9a01f5-2b23-491d-a58e-0b830a40a966
 
 # **Menu**
 - [Features](#features)
