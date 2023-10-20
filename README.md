@@ -43,8 +43,6 @@ cd penguinFox
 
 - Restart Firefox and enjoy
 
-- (Optional) If you want Firefox to be smaller, go to ```Customize toolbar > Density > Compact```
-
 ## 2. Install manually
 - Clone this repository or download the [zip file](https://github.com/p3nguin-kun/penguinFox/archive/main.zip)
 ```
@@ -61,8 +59,6 @@ git clone https://github.com/p3nguin-kun/penguinFox
 > If you use Windows, delete ```userChrome.css``` and rename ```userChrome-windows.css``` into ```userChrome.css```
 
 - Restart Firefox and enjoy
-
-- (Optional) If you want Firefox to be smaller, go to ```Customize toolbar > Density > Compact```
 
 # **How to uninstall**
 - Just go to your profile folder and delete ```user.js``` and ```chrome``` folder
