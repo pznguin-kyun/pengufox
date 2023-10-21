@@ -1,22 +1,4 @@
 @-moz-document url-prefix(about:){
-/*  Colors  */
-:root{--newtab-background-color: -moz-Dialog !important;
---in-content-background-color: -moz-Dialog !important;
---in-content-page-background: -moz-Dialog !important;
---in-content-table-background: -moz-Dialog !important;
---in-content-box-background-odd: -moz-Dialog !important;
---card-background-color: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important;
---in-content-box-background: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important;
---in-content-button-background: color-mix(in srgb, currentColor 5%, -moz-Dialog) !important;
---in-content-box-background: color-mix(in srgb, currentColor 13%, -moz-Dialog) !important;
---in-content-box-info-background: color-mix(in srgb, currentColor 13%, -moz-Dialog) !important;
---message-bar-text-color: color-mix(in srgb, currentColor 13%, -moz-Dialog) !important;
---newtab-background-color-secondary: color-mix(in srgb, currentColor 13%, -moz-Dialog) !important;
---in-content-button-background-hover: color-mix(in srgb, currentColor 13%, -moz-Dialog) !important;
---box-background: color-mix(in srgb, currentColor 13%, -moz-Dialog) !important;
---button-background-color: color-mix(in srgb, currentColor 13%, -moz-Dialog) !important;
---button-hover-background-color: color-mix(in srgb, currentColor 15%, -moz-Dialog) !important;}
-body{background-color: -moz-Dialog !important} @-moz-document url(about:blank){body{background-color: #eee !important} @media (prefers-color-scheme: dark){body{background-color: #222 !important}}}
 
 /*  Removes the scrollbar on some places  */
 body,html{overflow-y: auto}
