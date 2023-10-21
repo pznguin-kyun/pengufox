@@ -117,8 +117,6 @@ tab:not(:active) .tab-background {
 /* Window colors  */
 
 :root {
-  --toolbar-bgcolor: var(--secondary) !important;
-  --tabs-border-color: var(--secondary) !important;
   --lwt-sidebar-background-color: var(--window) !important;
   --lwt-toolbar-field-focus: var(--secondary) !important;
 }
