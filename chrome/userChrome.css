@@ -6,8 +6,7 @@
 /* config */
 
 * {
-  /*--tab-corner-rounding: 5px;*/
-  --animation-speed: 0.4s;
+  --animation-speed: 0.2s;
   --button-corner-rounding: 30px;
   --urlbar-container-height: 40px !important;
   --urlbar-min-height: 30px !important;
@@ -30,11 +29,11 @@
 #nav-bar:not([customizing]) {
   visibility: visible;
   margin-top: -40px;
-  transition-delay: 0.5s;
+  transition-delay: 0.1s;
   filter: alpha(opacity=0);
   opacity: 0;
-  transition: visibility, ease 0.5s, margin-top, ease 0.5s, opacity, ease 0.5s,
-  rotate, ease 0.4s !important;
+  transition: visibility, ease 0.1s, margin-top, ease 0.1s, opacity, ease 0.1s,
+  rotate, ease 0.1s !important;
 }
 
 #nav-bar:hover,
@@ -62,17 +61,17 @@ tab:not(:active) .tab-background {
   transition: background-color var(--animation-speed) !important;
 }
 :root:not([customizing]) :hover > .tabbrowser-tab:not(:hover) {
-  transition: blur, ease 0.5s !important;
+  transition: blur, ease 0.1s !important;
 }
 
 :root:not([customizing]) :not(:hover) > .tabbrowser-tab {
-  transition: blur, ease 0.2s !important;
+  transition: blur, ease 0.1s !important;
 }
 
 #tabbrowser-tabs .tab-label-container[customizing] {
   color: transparent;
-  transition: ease 0.5s;
-  transition-delay: 3s;
+  transition: ease 0.1s;
+  transition-delay: 0.2s;
 }
 
 /*  Removes annoying buttons and spaces */
