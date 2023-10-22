@@ -18,7 +18,6 @@ https://github.com/p3nguin-kun/penguinFox/assets/123321507/1c9a01f5-2b23-491d-a5
 
 # **Features**
 - Beautify Firefox with FirefoxCSS
-- Automatically install extensions (uBlock Origin, Firefox Multi-Account Containers)
 - Turn off all telemetry, studies
 - Add calculator to address bar
 - Make Firefox suckless
@@ -76,7 +75,3 @@ git clone https://github.com/p3nguin-kun/penguinFox
 1. Fork this project.
 2. Edit files, add extensions, ...
 3. Make a pull request.
-
-# **Credits**
-- [r/FirefoxCSS](https://www.reddit.com/r/FirefoxCSS/)
-- [uBlock Origin](https://ublockorigin.com/)
