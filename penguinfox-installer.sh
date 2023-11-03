@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # penguinFox
 # GitHub: p3nguin-kun
