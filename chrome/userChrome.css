@@ -57,9 +57,6 @@
   opacity: 100;
 }
 
-tab:not(:active) .tab-background {
-  transition: background-color var(--animation-speed) !important;
-}
 :root:not([customizing]) :hover > .tabbrowser-tab:not(:hover) {
   transition: blur, ease 0.1s !important;
 }
@@ -86,26 +83,6 @@ tab:not(:active) .tab-background {
 #PanelUI-menu-button, #unified-extensions-button, #reload-button, #stop-button {padding: 2px !important}
 #reload-button, #stop-button{margin: 1px !important;}
 
-/* Tabs colors  */
-#tabbrowser-tabs:not([movingtab])
-  > #tabbrowser-arrowscrollbox
-  > .tabbrowser-tab
-  > .tab-stack
-  > .tab-background[multiselected='true'],
-#tabbrowser-tabs:not([movingtab])
-  > #tabbrowser-arrowscrollbox
-  > .tabbrowser-tab
-  > .tab-stack
-  > .tab-background[selected='true'] {
-  background-image: none !important;
-  background-color: var(--toolbar-bgcolor) !important;
-}
-
-/* Inactive tabs color */
-#navigator-toolbox {
-  background-color: var(--window) !important;
-}
-
 /* X-button */
 :root {
     --show-tab-close-button: none;
@@ -114,32 +91,16 @@ tab:not(:active) .tab-background {
 .tabbrowser-tab:not([pinned]) .tab-close-button { display: var(--show-tab-close-button) !important; }
 .tabbrowser-tab:not([pinned]):hover .tab-close-button { display: var(--show-tab-close-button-hover) !important }
 
-/* Window colors  */
-
-:root {
-  --lwt-sidebar-background-color: var(--window) !important;
-  --lwt-toolbar-field-focus: var(--secondary) !important;
-}
-
 /* tabbar */
 
 /* Hide the secondary Tab Label
  * e.g. playing indicator (the text, not the icon) */
 .tab-secondary-label { display: none !important; }
 
-#nav-bar:not([tabs-hidden='true']) {
-  box-shadow: none;
-}
-
 :root {
   --toolbarbutton-border-radius: 0 !important;
   --tab-border-radius: 0 !important;
   --tab-block-margin: 0 !important;
-}
-
-.tab-background {
-  border-right: 0px solid rgba(0, 0, 0, 0) !important;
-  margin-left: -4px !important;
 }
 
 .tabbrowser-tab:is([visuallyselected='true'], [multiselected])
@@ -156,18 +117,10 @@ tab:not(:active) .tab-background {
   padding-left: 0 !important;
 }
 
-/* remove tab shadow */
-.tabbrowser-tab
-  >.tab-stack
-  > .tab-background { box-shadow: none !important;  }
-
 /* multi tab selection */
 #tabbrowser-tabs:not([noshadowfortests]) .tabbrowser-tab:is([multiselected])
   > .tab-stack
   > .tab-background:-moz-lwtheme { outline-color: var(--toolbarseparator-color) !important; }
-
-/* Hides the list-all-tabs button*/
-#alltabs-button { display: var(--uc-show-all-tabs-button) !important; }
 
 /* remove gap after pinned tabs */
 #tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs])
