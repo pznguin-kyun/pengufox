@@ -46,7 +46,7 @@ done
 
 # Installing dotfiles
 logo "Installing penguinFox..."
-cp -R ./* ~/.mozilla/firefox/*.default-release/
+cp -R ./* ~/.mozilla/firefox/*.default-*/
 
 logo "Removing unused files..."
 rm -rf ~/.mozilla/firefox/*.default-*/.git ~/.mozilla/firefox/*.default-*/.github ~/.mozilla/firefox/*.default-*/penguinfox-installer.sh ~/.mozilla/firefox/*.default-*/README.md

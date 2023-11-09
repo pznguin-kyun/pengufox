@@ -3,8 +3,6 @@ user_pref("browser.cache.disk.enable", false);
 user_pref("browser.cache.memory.enable", true);
 user_pref("browser.cache.memory.capacity", 524288);
 user_pref("browser.sessionstore.interval", 15000000);
-user_pref("extensions.pocket.enabled", false);
-user_pref("reader.parse-on-load.enabled", false);
 user_pref("accessibility.force_disabled", 1);
 user_pref("browser.helperApps.deleteTempFileOnExit", true);
 user_pref("browser.uitour.enabled", false);
@@ -24,8 +22,6 @@ user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false); //
 /* clear default topsites
  * [NOTE] This does not block you from adding your own ***/
 user_pref("browser.newtabpage.activity-stream.default.sites", "");
-/*** disable about:config warning ***/
-user_pref("browser.aboutConfig.showWarning", false);
 
 /*** QUIETER FOX ***/
 
