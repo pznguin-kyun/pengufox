@@ -25,18 +25,9 @@ https://github.com/p3nguin-kun/penguinFox/assets/123321507/1c9a01f5-2b23-491d-a5
 # **Installation**
 
 ## 1. Install automatically (Linux only)
-- Clone this repository
 ```
 git clone https://github.com/p3nguin-kun/penguinFox
-```
-
-- Go to penguinFox directory
-```
 cd penguinFox
-```
-
-- Run the installer script
-```
 ./penguinfox-installer.sh
 ```
 
