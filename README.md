@@ -39,7 +39,13 @@ cd penguinFox
 ```
 ./penguinfox-installer.sh
 ```
-
+- Restart Firefox and enjoy
+  
+- all in one installer
+...
+git clone https://github.com/p3nguin-kun/penguinFox && cd penguinFox && ./penguinfox-inst
+...
+  
 - Restart Firefox and enjoy
 
 ## 2. Install manually
