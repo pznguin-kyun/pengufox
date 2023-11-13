@@ -41,10 +41,10 @@ cd penguinFox
 ```
 - Restart Firefox and enjoy
   
-- all in one installer
-...
+# all in one installer
+```
 git clone https://github.com/p3nguin-kun/penguinFox && cd penguinFox && ./penguinfox-inst
-...
+```
   
 - Restart Firefox and enjoy
 
