@@ -6,16 +6,6 @@
 
 https://github.com/p3nguin-kun/penguinFox/assets/123321507/1c9a01f5-2b23-491d-a58e-0b830a40a966
 
-# **Menu**
-- [Features](#features)
-- [Installation](#installation)
-- [How to uninstall](#how-to-uninstall)
-- [nightTab config](#nighttab-config)
-- [Q&A](#qa)
-- [Contributions](#contributions)
-- [Support](#support)
-- [Credits](#credits)
-
 # **Features**
 - Beautify Firefox with FirefoxCSS
 - Turn off all telemetry, studies
@@ -23,15 +13,12 @@ https://github.com/p3nguin-kun/penguinFox/assets/123321507/1c9a01f5-2b23-491d-a5
 - Make Firefox suckless
 
 # **Installation**
-
 ## 1. Install automatically (Linux only)
 ```
 git clone https://github.com/p3nguin-kun/penguinFox
 cd penguinFox
 ./penguinfox-installer.sh
 ```
-
-- Restart Firefox and enjoy
 
 ## 2. Install manually
 - Clone this repository or download the [zip file](https://github.com/p3nguin-kun/penguinFox/archive/main.zip)
