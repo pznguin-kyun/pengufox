@@ -42,11 +42,9 @@ git clone https://github.com/p3nguin-kun/penguinFox
 - Extract file (if you download the zip file)
 
 - Copy all files and folders in penguinFox and paste to your profile folder
-  - ```~/.mozilla/firefox/######.default-release``` (Linux)
-  - ```/Users/[USERNAME]/Library/Application Support/Firefox/Profiles/######.default-release``` (macOS)
-  - ```C:\Users\[USERNAME]\AppData\Roaming\Mozilla\Firefox\Profiles\######.default-release``` (Windows)
-
-> If you use Windows, delete ```userChrome.css``` and rename ```userChrome-windows.css``` into ```userChrome.css```
+  - ```~/.mozilla/firefox/######.default-#####$``` (Linux)
+  - ```/Users/[USERNAME]/Library/Application Support/Firefox/Profiles/######.default-######``` (macOS)
+  - ```C:\Users\[USERNAME]\AppData\Roaming\Mozilla\Firefox\Profiles\######.default-######``` (Windows)
 
 - Restart Firefox and enjoy
 
