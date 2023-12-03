@@ -109,6 +109,11 @@
   box-shadow: none !important;
 }
 
+.tab-background {
+  border-right: 0px solid rgba(0, 0, 0, 0) !important;
+  margin-left: -4px !important;
+}
+
 .tabbrowser-tab[last-visible-tab='true'] {
   padding-inline-end: 0 !important;
 }
