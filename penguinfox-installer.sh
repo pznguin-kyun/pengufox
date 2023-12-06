@@ -48,8 +48,5 @@ done
 logo "Installing penguinFox..."
 cp -R ./files/* ~/.mozilla/firefox/*.default-*/
 
-logo "Removing unused files..."
-rm -rf ~/.mozilla/firefox/*.default-*/.git ~/.mozilla/firefox/*.default-*/.github ~/.mozilla/firefox/*.default-*/penguinfox-installer.sh ~/.mozilla/firefox/*.default-*/README.md
-
 logo "Done!"
 printf "Completed penguinFox installation, now open Firefox and enjoy!\n"
