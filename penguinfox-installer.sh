@@ -20,9 +20,9 @@ logo() {
 }
 
 # Intro
-clear
 logo "Welcome!"
 printf '%s%sThis script will automatically install penguinFox - my Firefox config to your system %s\n\n' "${BLD}" "${CRE}" "${CNC}"
+sleep 1
 
 # Backup config files
 logo "Backing-up your config files"
@@ -46,7 +46,7 @@ done
 
 # Installing dotfiles
 logo "Installing penguinFox..."
-cp -R ./* ~/.mozilla/firefox/*.default-*/
+cp -R ./files/* ~/.mozilla/firefox/*.default-*/
 
 logo "Removing unused files..."
 rm -rf ~/.mozilla/firefox/*.default-*/.git ~/.mozilla/firefox/*.default-*/.github ~/.mozilla/firefox/*.default-*/penguinfox-installer.sh ~/.mozilla/firefox/*.default-*/README.md
