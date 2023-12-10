@@ -111,7 +111,7 @@
 
 .tab-background {
   border-right: 0px solid rgba(0, 0, 0, 0) !important;
-  margin-left: -4px !important;
+  margin-left: -1px !important;
 }
 
 .tabbrowser-tab[last-visible-tab='true'] {
