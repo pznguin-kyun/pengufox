@@ -1,7 +1,4 @@
 # penguinFox
-
-## **Note**: If you use Librewolf, use this: [penguinFox-Librewolf](https://github.com/p3nguin-kun/penguinFox-Librewolf)
-
 **penguinFox is a Firefox config that makes Firefox more beautiful, more secure and better protect privacy by using FirefoxCSS and disabling all telemetry.**
 
 https://github.com/p3nguin-kun/penguinFox/assets/123321507/1c9a01f5-2b23-491d-a58e-0b830a40a966
