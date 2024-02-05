@@ -12,7 +12,7 @@ https://github.com/Haruzona/penguinFox/assets/123321507/1c9a01f5-2b23-491d-a58e-
 # Installation
 ## 1. Install automatically (Linux only)
 ```
-git clone https://github.com/p3nguin-kun/penguinFox
+git clone https://github.com/Haruzona/penguinFox
 cd penguinFox
 ./penguinfox-installer.sh
 ```
