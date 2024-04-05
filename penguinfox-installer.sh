@@ -20,7 +20,7 @@ logo() {
 intro() {
     logo "Welcome!"
     printf "%s%sThis script will automatically install penguinFox - my Firefox config to your system. Make sure you don't open any Firefox session while install this config.%s\n\n" "${BLD}" "${CRE}" "${CNC}"
-    read -rp "Type about:config on your browser and type your profile directory here: " profile
+    read -rp "Type \"about:support\" in your browser and type your profile directory here: " profile
     printf "\n"
 }
 
