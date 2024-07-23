@@ -13,7 +13,7 @@ https://github.com/Haruzona/pengufox/assets/123321507/1c9a01f5-2b23-491d-a58e-0b
 # Installation
 ## 1. Install automatically (Linux only)
 ```
-$ git clone https://github.com/Haruzona/penguinFox
+$ git clone https://github.com/Haruzona/pengufox
 $ cd pengufox
 $ ./pengufox-installer.sh
 ```
