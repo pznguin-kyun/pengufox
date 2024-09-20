@@ -2,7 +2,7 @@
 # pengufox
 **pengufox is a Firefox config that makes Firefox more beautiful, more secure and better protect privacy by using FirefoxCSS and disabling all telemetry.**
 
-https://github.com/Haruzona/pengufox/assets/123321507/1c9a01f5-2b23-491d-a58e-0b830a40a966
+https://github.com/pznguin-kyun/pengufox/assets/123321507/1c9a01f5-2b23-491d-a58e-0b830a40a966
 
 # Features
 - Beautify Firefox with FirefoxCSS
@@ -13,15 +13,15 @@ https://github.com/Haruzona/pengufox/assets/123321507/1c9a01f5-2b23-491d-a58e-0b
 # Installation
 ## 1. Install automatically (Linux only)
 ```
-$ git clone https://github.com/Haruzona/pengufox
+$ git clone https://github.com/pznguin-kyun/pengufox
 $ cd pengufox
 $ ./pengufox-installer.sh
 ```
 
 ## 2. Install manually
-- Clone this repository or download the [zip file](https://github.com/Haruzona/pengufox/archive/main.zip)
+- Clone this repository or download the [zip file](https://github.com/pznguin-kyun/pengufox/archive/main.zip)
 ```
-$ git clone https://github.com/Haruzona/pengufox
+$ git clone https://github.com/pznguin-kyun/pengufox
 ```
 
 - Extract file (if you download the zip file)
@@ -37,10 +37,10 @@ $ git clone https://github.com/Haruzona/pengufox
 - Just go to your profile folder and delete ```user.js``` and ```chrome``` folder
 
 # nightTab config
-![Screenshot_2023-07-15_20-47-24](https://github.com/Haruzona/pengufox/assets/123321507/f52fe4ea-ac6c-49c4-a75c-cef1c9e8b27c)
+![Screenshot_2023-07-15_20-47-24](https://github.com/pznguin-kyun/pengufox/assets/123321507/f52fe4ea-ac6c-49c4-a75c-cef1c9e8b27c)
 ### Installation
 - Install [nightTab](https://github.com/zombieFox/nightTab)
-- Download my nightTab config [here](https://github.com/Haruzona/pengufox/blob/main/p3nguin-kun's%20nighttab%20config.json)
+- Download my nightTab config [here](https://github.com/pznguin-kyun/pengufox/blob/main/pznguin-kyun's%20nighttab%20config.json)
 - Choose `Settings > Data > Restore > Import from file`
 - Choose my nightTab config and apply it
 

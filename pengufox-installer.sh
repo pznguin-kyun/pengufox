@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 
-# penguinFox
-# GitHub: p3nguin-kun
+# pengufox
+# GitHub: pznguin-kyun
 
 CRE=$(tput setaf 1)
 CYE=$(tput setaf 3)
 BLD=$(tput bold)
 CNC=$(tput sgr0)
 
-backup_folder=~/.penguinFox-Backup
+backup_folder=~/.pengufox-Backup
 date=$(date +%Y%m%d-%H%M%S)
 
 # Functions
@@ -19,7 +19,7 @@ logo() {
 
 intro() {
     logo "Welcome!"
-    printf "%s%sThis script will automatically install penguinFox - my Firefox config to your system. Make sure you don't open any Firefox session while install this config.%s\n\n" "${BLD}" "${CRE}" "${CNC}"
+    printf "%s%sThis script will automatically install pengufox - my Firefox config to your system. Make sure you don't open any Firefox session while install this config.%s\n\n" "${BLD}" "${CRE}" "${CNC}"
     read -rp "Type \"about:support\" in your browser and type your profile directory here: " profile
     printf "\n"
 }
@@ -32,7 +32,7 @@ kill_firefox(){
 
 backup(){
     logo "Backing-up your config files"
-    printf "Backup files will be stored in %s%s%s/.penguinFox-Backup%s \n\n" "${BLD}" "${CRE}" "$HOME" "${CNC}"
+    printf "Backup files will be stored in %s%s%s/.pengufox-Backup%s \n\n" "${BLD}" "${CRE}" "$HOME" "${CNC}"
     if [ ! -d "$backup_folder" ]; then
     	mkdir -p "$backup_folder"
     fi
@@ -45,14 +45,14 @@ backup(){
 }
 
 install(){
-    logo "Installing penguinFox..."
+    logo "Installing pengufox..."
     cp -R ./files/* "$profile"/
     printf "Done!\n\n" "${BLD}" "${CRE}" "$HOME" "${CNC}"
 }
 
 done_msg(){
     logo "Done!"
-    printf "Completed penguinFox installation, now open Firefox and enjoy!\n"
+    printf "Completed pengufox installation, now open Firefox and enjoy!\n"
 }
 
 # Main
